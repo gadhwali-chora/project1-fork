@@ -1,2 +1,2 @@
-FROM apt install apache2 -y
+FROM ubuntu/apache2
 COPY . /var/www/html/
